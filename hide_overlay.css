@@ -1,0 +1,32 @@
+/* Default Browser Source CSS from OBS */
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/* Hide controls. The ones that show up on hover */
+.subject.visible {
+  top: -120px;
+}
+.new-toolbox.visible .toolbox-background {
+  bottom: -160px;
+}
+.new-toolbox.visible {
+  bottom: calc((40px * 2) * -1) !important;
+}
+
+/* Hide notifications */
+.atlaskit-portal-container {
+  display: none !important;
+}
+
+/* Hide Video Quality Label */
+#videoResolutionLabel {
+  display: none !important;
+}
+
+/* Hide Expand Arrow in the bottom right */
+path[d="M16 10.688l8 8-1.875 1.875L16 14.438l-6.125 6.125L8 18.688z"] {
+  display: none !important;
+}
