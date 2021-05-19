@@ -13,6 +13,11 @@
   - [Audio Setup](#audio-setup)
     - [Meeting Audio Source](#meeting-audio-source)
     - [Audio Mixer](#audio-mixer)
+- [Usage](#usage)
+  - [How to interact](#how-to-interact)
+    - [Focus individual Speaker/Moderator](#focus-individual-speakermoderator)
+    - [Hide sidebar](#hide-sidebar)
+    - [Get back to overview](#get-back-to-overview)
 
 # Requirements
 - OBS (version 26.1.1)
@@ -122,3 +127,21 @@ In order to only see whats relevant, you can hide the muted audio sources you do
     <img src="./screenshots/browser_src_audio_hide.png?raw=true" width = "45%" style="margin: 5pt"/>
     <img src="./screenshots/browser_src_audio_hidden.png?raw=true" width = "45%" style="margin: 5pt"/>
 </p>
+
+# Usage
+In order to setup the individual Speakers/Moderators you need to interact with the browser sources. You'll need to repeat the following steps for all speakers and moderators.
+
+## How to interact
+You can interact with a browser source by right clicking it and selecting "interact" from the dropdown menu. After that you will be presented with the interact screen that allows you control the Jitsi-Meeting.
+<img src="./screenshots/browser_src_interact_overview.png?raw=true"/>
+
+### Focus individual Speaker/Moderator
+By clicking the video feed of the speaker, you can highlight them.
+<img src="./screenshots/browser_src_interact_focused.png?raw=true"/>
+
+### Hide sidebar
+By clicking the little arrow in the bottom right corner you can hide the side bar which contains the other participants video feeds. At this point you have a clean 1080p stream of an individual speaker.
+<img src="./screenshots/browser_src_interact_focused_no_sidebar.png?raw=true"/>
+
+### Get back to overview
+When interacting with the browser source you can press "W" to get back into the overview. This way you can focus a different speaker or re-focus a speaker that dropped out of a call and joined back in.
