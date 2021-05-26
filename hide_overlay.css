@@ -30,3 +30,8 @@ body {
 path[d="M16 10.688l8 8-1.875 1.875L16 14.438l-6.125 6.125L8 18.688z"] {
   display: none !important;
 }
+
+/* Hide Watermark like Host Logo */
+.watermark {
+  display: none !important;
+}
