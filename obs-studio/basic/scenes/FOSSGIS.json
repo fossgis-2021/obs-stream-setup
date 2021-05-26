@@ -31,8 +31,8 @@
         "versioned_id": "pulse_output_capture",
         "volume": 0.0
     },
-    "current_program_scene": "Fragen",
-    "current_scene": "Fragen",
+    "current_program_scene": "Moderator + Speaker 1 + 2",
+    "current_scene": "Pause",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -368,7 +368,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/david.kalbermatten/AppData/Roaming/obs-studio/basic/scenes/FOSSGIS Konferenz Logo 2021_BGw.png"
+                "file": "C:/Users/David Kalbermatten/AppData/Roaming/obs-studio/basic/resources/FOSSGIS Konferenz Logo 2021_BGw.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -393,7 +393,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "C:/Users/david.kalbermatten/AppData/Roaming/obs-studio/basic/scenes/hsr_arial_blurred.jpg"
+                "file": "C:/Users/David Kalbermatten/AppData/Roaming/obs-studio/basic/resources/hsr_arial_blurred.jpg"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -650,7 +650,9 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Background": [],
                 "libobs.hide_scene_item.TODO Infobeamer": [],
+                "libobs.show_scene_item.Background": [],
                 "libobs.show_scene_item.TODO Infobeamer": []
             },
             "id": "scene",
@@ -666,8 +668,37 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 5,
+                "id_counter": 6,
                 "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Background",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -1902,6 +1933,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "css": "/* Default Browser Source CSS from OBS */\nbody {\n  background-color: rgba(0, 0, 0, 0);\n  margin: 0px auto;\n  overflow: hidden;\n}\n\n/* Hide controls. The ones that show up on hover */\n.subject.visible {\n  top: -120px;\n}\n.new-toolbox.visible .toolbox-background {\n  bottom: -160px;\n}\n.new-toolbox.visible {\n  bottom: calc((40px * 2) * -1) !important;\n}\n\n/* Hide notifications */\n.atlaskit-portal-container {\n  display: none !important;\n}\n\n/* Hide Video Quality Label */\n#videoResolutionLabel {\n  display: none !important;\n}\n\n/* Hide Expand Arrow in the bottom right */\npath[d=\"M16 10.688l8 8-1.875 1.875L16 14.438l-6.125 6.125L8 18.688z\"] {\n  display: none !important;\n}\n\n/* Hide Watermark like Host Logo */\n.watermark {\n  display: none !important;\n}",
+                "fps": 60,
+                "fps_custom": true,
                 "height": 1080,
                 "reroute_audio": true,
                 "url": "https://meet.ffmuc.net/invictech_test_1",
@@ -1938,6 +1971,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "css": "/* Default Browser Source CSS from OBS */\nbody {\n  background-color: rgba(0, 0, 0, 0);\n  margin: 0px auto;\n  overflow: hidden;\n}\n\n/* Hide controls. The ones that show up on hover */\n.subject.visible {\n  top: -120px;\n}\n.new-toolbox.visible .toolbox-background {\n  bottom: -160px;\n}\n.new-toolbox.visible {\n  bottom: calc((40px * 2) * -1) !important;\n}\n\n/* Hide notifications */\n.atlaskit-portal-container {\n  display: none !important;\n}\n\n/* Hide Video Quality Label */\n#videoResolutionLabel {\n  display: none !important;\n}\n\n/* Hide Expand Arrow in the bottom right */\npath[d=\"M16 10.688l8 8-1.875 1.875L16 14.438l-6.125 6.125L8 18.688z\"] {\n  display: none !important;\n}\n\n/* Hide Watermark like Host Logo */\n.watermark {\n  display: none !important;\n}",
+                "fps": 60,
+                "fps_custom": true,
                 "height": 1080,
                 "reroute_audio": true,
                 "url": "https://meet.ffmuc.net/invictech_test_1",
@@ -2128,6 +2163,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "css": "/* Default Browser Source CSS from OBS */\nbody {\n  background-color: rgba(0, 0, 0, 0);\n  margin: 0px auto;\n  overflow: hidden;\n}\n\n/* Hide controls. The ones that show up on hover */\n.subject.visible {\n  top: -120px;\n}\n.new-toolbox.visible .toolbox-background {\n  bottom: -160px;\n}\n.new-toolbox.visible {\n  bottom: calc((40px * 2) * -1) !important;\n}\n\n/* Hide notifications */\n.atlaskit-portal-container {\n  display: none !important;\n}\n\n/* Hide Video Quality Label */\n#videoResolutionLabel {\n  display: none !important;\n}\n\n/* Hide Expand Arrow in the bottom right */\npath[d=\"M16 10.688l8 8-1.875 1.875L16 14.438l-6.125 6.125L8 18.688z\"] {\n  display: none !important;\n}\n\n/* Hide Watermark like Host Logo */\n.watermark {\n  display: none !important;\n}",
+                "fps": 60,
+                "fps_custom": true,
                 "height": 1080,
                 "reroute_audio": true,
                 "url": "https://meet.ffmuc.net/invictech_test_1",
@@ -2164,6 +2201,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "css": "/* Default Browser Source CSS from OBS */\nbody {\n  background-color: rgba(0, 0, 0, 0);\n  margin: 0px auto;\n  overflow: hidden;\n}\n\n/* Hide controls. The ones that show up on hover */\n.subject.visible {\n  top: -120px;\n}\n.new-toolbox.visible .toolbox-background {\n  bottom: -160px;\n}\n.new-toolbox.visible {\n  bottom: calc((40px * 2) * -1) !important;\n}\n\n/* Hide notifications */\n.atlaskit-portal-container {\n  display: none !important;\n}\n\n/* Hide Video Quality Label */\n#videoResolutionLabel {\n  display: none !important;\n}\n\n/* Hide Expand Arrow in the bottom right */\npath[d=\"M16 10.688l8 8-1.875 1.875L16 14.438l-6.125 6.125L8 18.688z\"] {\n  display: none !important;\n}\n\n/* Hide Watermark like Host Logo */\n.watermark {\n  display: none !important;\n}",
+                "fps": 60,
+                "fps_custom": true,
                 "height": 1080,
                 "reroute_audio": true,
                 "url": "https://meet.ffmuc.net/invictech_test_1",
