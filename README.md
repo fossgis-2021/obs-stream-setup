@@ -5,7 +5,7 @@
   - [Import OBS Profile and Scenes](#import-obs-profile-and-scenes)
     - [Profile & Scene-Collection](#profile--scene-collection)
     - [Resources](#resources)
-    - [Link to Logo and Background](#link-to-logo-and-background)
+    - [Link to Logo, Background & Music](#link-to-logo-background--music)
   - [Browser Source Setup](#browser-source-setup)
     - [Speaker/Moderator](#speakermoderator)
       - [Brower Source Settings](#brower-source-settings)
@@ -44,9 +44,12 @@ After that you can relaunch/open OBS and you should see a new profile and scene-
     <img src="./screenshots/obs_settings_scenes.png?raw=true" width = "45%" style="margin: 5pt"/>
 </p>
 
-### Link to Logo and Background
-Because OBS can't handle relative paths you need to manually update the `Background` and `Logo` Source.
-<img src="./screenshots/obs_sources_logo_background.png?raw=true"/>
+### Link to Logo, Background & Music
+Because OBS can't handle relative paths you need to manually update the `Background`, `Logo` and `Background Music` Source.
+<p float='left' >
+    <img src="./screenshots/obs_source_linking_logo_background.png?raw=true" width = "45%" style="margin: 5pt"/>
+    <img src="./screenshots/obs_source_linking_logo_background.png?raw=true" width = "45%" style="margin: 5pt"/>
+</p>
 
 Open the properties of the logo and click "Browse". Navigate to the location of the `resource` folder you copied previously. Select `FOSSGIS Konferenz Logo 2021_BGw.png`. Do the same for the background and select `hsr_arial_blurred.jpg`.
 
@@ -59,6 +62,7 @@ This part is a full run down on how to add a Jitsi-Meeting to OBS which isn't ne
 - insert the URL of the Jitsi-Meeting you want to capture
 - set width to `1920` and height to `1080`
 - make sure `Control Audio via OBS` is checked
+- check `Use custom frame rate` and set it to 60
 - insert the custom CSS provided
 - make sure both `Shutdown source when not visible` and `Refresh browser when scene becomes active` are off
 
@@ -132,6 +136,8 @@ In order to only see whats relevant, you can hide the muted audio sources you do
     <img src="./screenshots/browser_src_audio_hide.png?raw=true" width = "45%" style="margin: 5pt"/>
     <img src="./screenshots/browser_src_audio_hidden.png?raw=true" width = "45%" style="margin: 5pt"/>
 </p>
+
+The `Background Music` audio source should be set to -5dB in the audio mixer.
 
 # Usage
 In order to setup the individual Speakers/Moderators you need to interact with the browser sources. You'll need to repeat the following steps for all speakers and moderators.
