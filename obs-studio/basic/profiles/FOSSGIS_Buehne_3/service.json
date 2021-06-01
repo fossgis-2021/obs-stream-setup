@@ -1,9 +1,0 @@
-{
-    "settings": {
-        "bwtest": false,
-        "key": "",
-        "server": "rtmp://stream2.venueless.events/record/ ",
-        "use_auth": false
-    },
-    "type": "rtmp_custom"
-}

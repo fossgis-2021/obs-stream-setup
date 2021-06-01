@@ -1,7 +1,0 @@
-{
-    "settings": {
-        "key": "",
-        "server": "rtmp://stream1.venueless.events/record/ "
-    },
-    "type": "rtmp_custom"
-}
